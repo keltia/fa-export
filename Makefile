@@ -21,8 +21,6 @@ fa-export:    ${SRCS}
 
 push:
 	git push --all origin
-	git push --all backup
 	git push --all gitlab
 	git push --tags origin
-	git push --tags backup
 	git push --tags gitlab
