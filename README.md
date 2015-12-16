@@ -1,11 +1,12 @@
-# flightaware-go
+# fa-export
 
-# Status
+## Description
 
-Branch: develop — [![develop|Build Status](https://travis-ci.org/keltia/flightaware-go.svg?branch=develop)](http://travis-ci.org/keltia/flightaware-go/tree/develop)
+This is the client part of the [Flightaware](http://www.flightaware.com/) package, using the library in https://github.com:keltia/flightaware-go in Go.  It just exports the streaming data into JSON, using the FA API.
 
-Branch: master — [![master|Build Status](https://travis-ci.org/keltia/flightaware-go.svg?branch=master)](http://travis-ci.org/keltia/flightaware-go)
+## Status
 
-[Flightaware](http://www.flightaware.com/) client in Go.  It just exports the streaming data into JSON, using the FA API.
+Branch: develop — [![develop|Build Status](https://travis-ci.org/keltia/fa-export.svg?branch=develop)](http://travis-ci.org/keltia/fa-export/tree/develop)
 
-Requires a `config.toml` configuration file in `$HOME/.flightaware/`.  There is an example located in the `config` subdirectory.
+Branch: master — [![master|Build Status](https://travis-ci.org/keltia/fa-export.svg?branch=master)](http://travis-ci.org/keltia/fa-export)
+
