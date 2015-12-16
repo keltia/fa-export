@@ -47,6 +47,7 @@ Usage: %s [-o FILE] [-d N(s|mn|h|d)][-f live|pitr|range [-B date [-E date]] [-v]
           [-e type] [-F airline] [-I plane-ident] [-L lat/lon] [-P airport-glob]
        Output filter (not on theFA command line)
           [-X hexid]
+
 `
 )
 
