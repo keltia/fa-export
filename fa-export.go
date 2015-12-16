@@ -154,6 +154,7 @@ func main() {
 		stopEverything()
 	}()
 
+	flag.Usage = Usage
 	flag.Parse()
 
 	if fPProf {
