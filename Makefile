@@ -17,7 +17,8 @@ clean:
 	rm -f fa-export
 
 fa-export:    ${SRCS}
-	go build -v -o $@
+	echo "Obsolete: please use github.com/keltia/flightaware-go."
+	exit 1
 
 push:
 	git push --all origin
